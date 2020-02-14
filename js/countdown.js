@@ -38,5 +38,5 @@ function initializeClock(id, endtime) {
 }
 
 
-var deadline='August 20 2019 23:59:59 GMT+0530';
+var deadline='February 29 2020 11:59:59 GMT+0530';
 initializeClock('clockdiv', deadline);
