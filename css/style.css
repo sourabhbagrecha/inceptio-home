@@ -714,7 +714,8 @@ h4,
 		line-height: 38px
 	}
 	.footer-area {
-		padding: 70px 0px
+		padding: 70px 0px;
+		margin-bottom: 0px;
 	}
 	.pad_top {
 		padding-top: 70px
@@ -805,6 +806,34 @@ h4,
 		font-size: 42px
 	}
 }
+
+.hero-banner h3 {
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 0
+}
+
+@media (min-width: 768px) {
+	.hero-banner h3 {
+		font-size: 32px
+	}
+}
+
+.hero-banner h4 {
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 0
+}
+
+@media (min-width: 768px) {
+	.hero-banner h4 {
+		font-size: 24px
+	}
+}
+
+
 
 .hero-banner p {
 	font-size: 22px;
@@ -1098,14 +1127,14 @@ h4,
 }
 
 .speaker-description {
-  font-size: 1.4rem; 
+  font-size: 1.4rem;
   padding: 1rem;
-  color:white; 
+  color:white;
 }
 
 @media (max-width: 992px) {
   .speaker-description {
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
   }
 }
 
@@ -2793,12 +2822,12 @@ h4,
 
 .footer-area {
 	background: #111429;
-	padding-top: 60px
+	padding-top: 0px
 }
 
 @media (min-width: 1000px) {
 	.footer-area {
-		padding-top: 110px
+		padding-top: 0px
 	}
 }
 
